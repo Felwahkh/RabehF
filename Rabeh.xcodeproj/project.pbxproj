@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACAFC6172ADB31A7003FC94E /* RabehApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFC6162ADB31A7003FC94E /* RabehApp.swift */; };
+		ACAFC6192ADB31A7003FC94E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFC6182ADB31A7003FC94E /* ContentView.swift */; };
+		ACAFC61B2ADB31A7003FC94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAFC61A2ADB31A7003FC94E /* Assets.xcassets */; };
+		ACAFC61E2ADB31A7003FC94E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAFC61D2ADB31A7003FC94E /* Preview Assets.xcassets */; };
+		ACAFC6282ADB31A8003FC94E /* RabehTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFC6272ADB31A8003FC94E /* RabehTests.swift */; };
+		ACAFC6322ADB31A8003FC94E /* RabehUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFC6312ADB31A8003FC94E /* RabehUITests.swift */; };
+		ACAFC6342ADB31A8003FC94E /* RabehUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFC6332ADB31A8003FC94E /* RabehUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACAFC6242ADB31A8003FC94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAFC60B2ADB31A7003FC94E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAFC6122ADB31A7003FC94E;
+			remoteInfo = Rabeh;
+		};
+		ACAFC62E2ADB31A8003FC94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAFC60B2ADB31A7003FC94E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAFC6122ADB31A7003FC94E;
+			remoteInfo = Rabeh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACAFC6132ADB31A7003FC94E /* Rabeh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rabeh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAFC6162ADB31A7003FC94E /* RabehApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabehApp.swift; sourceTree = "<group>"; };
+		ACAFC6182ADB31A7003FC94E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACAFC61A2ADB31A7003FC94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACAFC61D2ADB31A7003FC94E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACAFC6232ADB31A8003FC94E /* RabehTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabehTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAFC6272ADB31A8003FC94E /* RabehTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabehTests.swift; sourceTree = "<group>"; };
+		ACAFC62D2ADB31A8003FC94E /* RabehUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabehUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAFC6312ADB31A8003FC94E /* RabehUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabehUITests.swift; sourceTree = "<group>"; };
+		ACAFC6332ADB31A8003FC94E /* RabehUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabehUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAFC6102ADB31A7003FC94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFC6202ADB31A8003FC94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFC62A2ADB31A8003FC94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAFC60A2ADB31A7003FC94E = {
+			isa = PBXGroup;
+			children = (
+				ACAFC6152ADB31A7003FC94E /* Rabeh */,
+				ACAFC6262ADB31A8003FC94E /* RabehTests */,
+				ACAFC6302ADB31A8003FC94E /* RabehUITests */,
+				ACAFC6142ADB31A7003FC94E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAFC6142ADB31A7003FC94E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFC6132ADB31A7003FC94E /* Rabeh.app */,
+				ACAFC6232ADB31A8003FC94E /* RabehTests.xctest */,
+				ACAFC62D2ADB31A8003FC94E /* RabehUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAFC6152ADB31A7003FC94E /* Rabeh */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFC6162ADB31A7003FC94E /* RabehApp.swift */,
+				ACAFC6182ADB31A7003FC94E /* ContentView.swift */,
+				ACAFC61A2ADB31A7003FC94E /* Assets.xcassets */,
+				ACAFC61C2ADB31A7003FC94E /* Preview Content */,
+			);
+			path = Rabeh;
+			sourceTree = "<group>";
+		};
+		ACAFC61C2ADB31A7003FC94E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFC61D2ADB31A7003FC94E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACAFC6262ADB31A8003FC94E /* RabehTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFC6272ADB31A8003FC94E /* RabehTests.swift */,
+			);
+			path = RabehTests;
+			sourceTree = "<group>";
+		};
+		ACAFC6302ADB31A8003FC94E /* RabehUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFC6312ADB31A8003FC94E /* RabehUITests.swift */,
+				ACAFC6332ADB31A8003FC94E /* RabehUITestsLaunchTests.swift */,
+			);
+			path = RabehUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAFC6122ADB31A7003FC94E /* Rabeh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAFC6372ADB31A8003FC94E /* Build configuration list for PBXNativeTarget "Rabeh" */;
+			buildPhases = (
+				ACAFC60F2ADB31A7003FC94E /* Sources */,
+				ACAFC6102ADB31A7003FC94E /* Frameworks */,
+				ACAFC6112ADB31A7003FC94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rabeh;
+			productName = Rabeh;
+			productReference = ACAFC6132ADB31A7003FC94E /* Rabeh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACAFC6222ADB31A8003FC94E /* RabehTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAFC63A2ADB31A8003FC94E /* Build configuration list for PBXNativeTarget "RabehTests" */;
+			buildPhases = (
+				ACAFC61F2ADB31A8003FC94E /* Sources */,
+				ACAFC6202ADB31A8003FC94E /* Frameworks */,
+				ACAFC6212ADB31A8003FC94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAFC6252ADB31A8003FC94E /* PBXTargetDependency */,
+			);
+			name = RabehTests;
+			productName = RabehTests;
+			productReference = ACAFC6232ADB31A8003FC94E /* RabehTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACAFC62C2ADB31A8003FC94E /* RabehUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAFC63D2ADB31A8003FC94E /* Build configuration list for PBXNativeTarget "RabehUITests" */;
+			buildPhases = (
+				ACAFC6292ADB31A8003FC94E /* Sources */,
+				ACAFC62A2ADB31A8003FC94E /* Frameworks */,
+				ACAFC62B2ADB31A8003FC94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAFC62F2ADB31A8003FC94E /* PBXTargetDependency */,
+			);
+			name = RabehUITests;
+			productName = RabehUITests;
+			productReference = ACAFC62D2ADB31A8003FC94E /* RabehUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAFC60B2ADB31A7003FC94E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ACAFC6122ADB31A7003FC94E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					ACAFC6222ADB31A8003FC94E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ACAFC6122ADB31A7003FC94E;
+					};
+					ACAFC62C2ADB31A8003FC94E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ACAFC6122ADB31A7003FC94E;
+					};
+				};
+			};
+			buildConfigurationList = ACAFC60E2ADB31A7003FC94E /* Build configuration list for PBXProject "Rabeh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACAFC60A2ADB31A7003FC94E;
+			productRefGroup = ACAFC6142ADB31A7003FC94E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAFC6122ADB31A7003FC94E /* Rabeh */,
+				ACAFC6222ADB31A8003FC94E /* RabehTests */,
+				ACAFC62C2ADB31A8003FC94E /* RabehUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAFC6112ADB31A7003FC94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAFC61E2ADB31A7003FC94E /* Preview Assets.xcassets in Resources */,
+				ACAFC61B2ADB31A7003FC94E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFC6212ADB31A8003FC94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFC62B2ADB31A8003FC94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAFC60F2ADB31A7003FC94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAFC6192ADB31A7003FC94E /* ContentView.swift in Sources */,
+				ACAFC6172ADB31A7003FC94E /* RabehApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFC61F2ADB31A8003FC94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAFC6282ADB31A8003FC94E /* RabehTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFC6292ADB31A8003FC94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAFC6322ADB31A8003FC94E /* RabehUITests.swift in Sources */,
+				ACAFC6342ADB31A8003FC94E /* RabehUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACAFC6252ADB31A8003FC94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAFC6122ADB31A7003FC94E /* Rabeh */;
+			targetProxy = ACAFC6242ADB31A8003FC94E /* PBXContainerItemProxy */;
+		};
+		ACAFC62F2ADB31A8003FC94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAFC6122ADB31A7003FC94E /* Rabeh */;
+			targetProxy = ACAFC62E2ADB31A8003FC94E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACAFC6352ADB31A8003FC94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACAFC6362ADB31A8003FC94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAFC6382ADB31A8003FC94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rabeh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Felwah.Rabeh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACAFC6392ADB31A8003FC94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rabeh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Felwah.Rabeh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACAFC63B2ADB31A8003FC94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Felwah.RabehTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rabeh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rabeh";
+			};
+			name = Debug;
+		};
+		ACAFC63C2ADB31A8003FC94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Felwah.RabehTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rabeh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rabeh";
+			};
+			name = Release;
+		};
+		ACAFC63E2ADB31A8003FC94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Felwah.RabehUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rabeh;
+			};
+			name = Debug;
+		};
+		ACAFC63F2ADB31A8003FC94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Felwah.RabehUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rabeh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAFC60E2ADB31A7003FC94E /* Build configuration list for PBXProject "Rabeh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAFC6352ADB31A8003FC94E /* Debug */,
+				ACAFC6362ADB31A8003FC94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAFC6372ADB31A8003FC94E /* Build configuration list for PBXNativeTarget "Rabeh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAFC6382ADB31A8003FC94E /* Debug */,
+				ACAFC6392ADB31A8003FC94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAFC63A2ADB31A8003FC94E /* Build configuration list for PBXNativeTarget "RabehTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAFC63B2ADB31A8003FC94E /* Debug */,
+				ACAFC63C2ADB31A8003FC94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAFC63D2ADB31A8003FC94E /* Build configuration list for PBXNativeTarget "RabehUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAFC63E2ADB31A8003FC94E /* Debug */,
+				ACAFC63F2ADB31A8003FC94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAFC60B2ADB31A7003FC94E /* Project object */;
+}
