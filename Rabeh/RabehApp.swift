@@ -11,7 +11,8 @@ import SwiftUI
 struct RabehApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            firstpage()
+           // ContentView()
         }
     }
 }

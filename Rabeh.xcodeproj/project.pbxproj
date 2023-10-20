@@ -14,6 +14,16 @@
 		ACAFC6282ADB31A8003FC94E /* RabehTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFC6272ADB31A8003FC94E /* RabehTests.swift */; };
 		ACAFC6322ADB31A8003FC94E /* RabehUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFC6312ADB31A8003FC94E /* RabehUITests.swift */; };
 		ACAFC6342ADB31A8003FC94E /* RabehUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFC6332ADB31A8003FC94E /* RabehUITestsLaunchTests.swift */; };
+		ACAFC6412ADB368C003FC94E /* seconed.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFC6402ADB368C003FC94E /* seconed.swift */; };
+		ACAFC6442ADC107B003FC94E /* SnapInsta.io - 10 Hours of Construction Sound _ Amazing Sounds with Peter Baeten (128 kbps).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACAFC6432ADC107B003FC94E /* SnapInsta.io - 10 Hours of Construction Sound _ Amazing Sounds with Peter Baeten (128 kbps).mp3 */; };
+		ACAFC6462ADC12A8003FC94E /* Sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACAFC6452ADC12A8003FC94E /* Sound1.mp3 */; };
+		ACAFC6482ADC157E003FC94E /* soun1edit.mov in Resources */ = {isa = PBXBuildFile; fileRef = ACAFC6472ADC157E003FC94E /* soun1edit.mov */; };
+		ACAFC64B2ADC1D7B003FC94E /* SoundRabeh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACAFC64A2ADC1D7B003FC94E /* SoundRabeh.mp3 */; };
+		ACAFC64D2ADC2786003FC94E /* forthevideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFC64C2ADC2786003FC94E /* forthevideo.swift */; };
+		ACAFC6522ADC2CC8003FC94E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAFC6512ADC2CC8003FC94E /* AVKit.framework */; };
+		ACAFC6552ADC3390003FC94E /* rabeh4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ACAFC64F2ADC2A08003FC94E /* rabeh4.mp4 */; };
+		ACAFC6572ADD5B62003FC94E /* rabehh4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ACAFC6562ADD5B5C003FC94E /* rabehh4.mp4 */; };
+		ACAFC6592ADEA376003FC94E /* firstpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFC6582ADEA376003FC94E /* firstpage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,17 @@
 		ACAFC62D2ADB31A8003FC94E /* RabehUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabehUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAFC6312ADB31A8003FC94E /* RabehUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabehUITests.swift; sourceTree = "<group>"; };
 		ACAFC6332ADB31A8003FC94E /* RabehUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabehUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACAFC6402ADB368C003FC94E /* seconed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seconed.swift; sourceTree = "<group>"; };
+		ACAFC6432ADC107B003FC94E /* SnapInsta.io - 10 Hours of Construction Sound _ Amazing Sounds with Peter Baeten (128 kbps).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "SnapInsta.io - 10 Hours of Construction Sound _ Amazing Sounds with Peter Baeten (128 kbps).mp3"; path = "../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/SnapInsta.io - 10 Hours of Construction Sound _ Amazing Sounds with Peter Baeten (128 kbps).mp3"; sourceTree = "<group>"; };
+		ACAFC6452ADC12A8003FC94E /* Sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sound1.mp3; path = ../../../Sound1.mp3; sourceTree = "<group>"; };
+		ACAFC6472ADC157E003FC94E /* soun1edit.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = soun1edit.mov; path = ../../../soun1edit.mov; sourceTree = "<group>"; };
+		ACAFC6492ADC164D003FC94E /* soun1edit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = soun1edit.mp3; path = ../../../soun1edit.mp3; sourceTree = "<group>"; };
+		ACAFC64A2ADC1D7B003FC94E /* SoundRabeh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SoundRabeh.mp3; path = ../../../SoundRabeh.mp3; sourceTree = "<group>"; };
+		ACAFC64C2ADC2786003FC94E /* forthevideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forthevideo.swift; sourceTree = "<group>"; };
+		ACAFC64F2ADC2A08003FC94E /* rabeh4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = rabeh4.mp4; path = ../../../Downloads/rabeh4.mp4; sourceTree = "<group>"; };
+		ACAFC6512ADC2CC8003FC94E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		ACAFC6562ADD5B5C003FC94E /* rabehh4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabehh4.mp4; sourceTree = "<group>"; };
+		ACAFC6582ADEA376003FC94E /* firstpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstpage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACAFC6522ADC2CC8003FC94E /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,7 @@
 				ACAFC6262ADB31A8003FC94E /* RabehTests */,
 				ACAFC6302ADB31A8003FC94E /* RabehUITests */,
 				ACAFC6142ADB31A7003FC94E /* Products */,
+				ACAFC6502ADC2CC8003FC94E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +117,14 @@
 		ACAFC6152ADB31A7003FC94E /* Rabeh */ = {
 			isa = PBXGroup;
 			children = (
+				ACAFC6422ADC1031003FC94E /* SOUND */,
 				ACAFC6162ADB31A7003FC94E /* RabehApp.swift */,
 				ACAFC6182ADB31A7003FC94E /* ContentView.swift */,
+				ACAFC64C2ADC2786003FC94E /* forthevideo.swift */,
+				ACAFC6582ADEA376003FC94E /* firstpage.swift */,
+				ACAFC6402ADB368C003FC94E /* seconed.swift */,
+				ACAFC6562ADD5B5C003FC94E /* rabehh4.mp4 */,
+				ACAFC64F2ADC2A08003FC94E /* rabeh4.mp4 */,
 				ACAFC61A2ADB31A7003FC94E /* Assets.xcassets */,
 				ACAFC61C2ADB31A7003FC94E /* Preview Content */,
 			);
@@ -125,6 +154,26 @@
 				ACAFC6332ADB31A8003FC94E /* RabehUITestsLaunchTests.swift */,
 			);
 			path = RabehUITests;
+			sourceTree = "<group>";
+		};
+		ACAFC6422ADC1031003FC94E /* SOUND */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFC64A2ADC1D7B003FC94E /* SoundRabeh.mp3 */,
+				ACAFC6492ADC164D003FC94E /* soun1edit.mp3 */,
+				ACAFC6472ADC157E003FC94E /* soun1edit.mov */,
+				ACAFC6452ADC12A8003FC94E /* Sound1.mp3 */,
+				ACAFC6432ADC107B003FC94E /* SnapInsta.io - 10 Hours of Construction Sound _ Amazing Sounds with Peter Baeten (128 kbps).mp3 */,
+			);
+			path = SOUND;
+			sourceTree = "<group>";
+		};
+		ACAFC6502ADC2CC8003FC94E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFC6512ADC2CC8003FC94E /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +280,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACAFC6572ADD5B62003FC94E /* rabehh4.mp4 in Resources */,
 				ACAFC61E2ADB31A7003FC94E /* Preview Assets.xcassets in Resources */,
+				ACAFC6442ADC107B003FC94E /* SnapInsta.io - 10 Hours of Construction Sound _ Amazing Sounds with Peter Baeten (128 kbps).mp3 in Resources */,
+				ACAFC6482ADC157E003FC94E /* soun1edit.mov in Resources */,
+				ACAFC6462ADC12A8003FC94E /* Sound1.mp3 in Resources */,
 				ACAFC61B2ADB31A7003FC94E /* Assets.xcassets in Resources */,
+				ACAFC64B2ADC1D7B003FC94E /* SoundRabeh.mp3 in Resources */,
+				ACAFC6552ADC3390003FC94E /* rabeh4.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACAFC6412ADB368C003FC94E /* seconed.swift in Sources */,
+				ACAFC6592ADEA376003FC94E /* firstpage.swift in Sources */,
 				ACAFC6192ADB31A7003FC94E /* ContentView.swift in Sources */,
 				ACAFC6172ADB31A7003FC94E /* RabehApp.swift in Sources */,
+				ACAFC64D2ADC2786003FC94E /* forthevideo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Rabeh/Preview Content\"";
+				DEVELOPMENT_TEAM = ZNWNX686QU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +504,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Rabeh/Preview Content\"";
+				DEVELOPMENT_TEAM = ZNWNX686QU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
